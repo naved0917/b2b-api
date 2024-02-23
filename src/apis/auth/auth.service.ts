@@ -144,6 +144,7 @@ export class AuthService {
           lName: queryResult.lName,
           email: queryResult.email,
           phone: queryResult.phone,
+          state:queryResult.state,
           role: queryResult.role,
           userId: queryResult.userId,
           company: queryResult.company,
